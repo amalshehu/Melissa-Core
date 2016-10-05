@@ -52,7 +52,11 @@ def tell_joke(text):
         'What do you call a fake noodle? An impasta!',
         'Did you hear about that new broom? It is sweeping the nation!',
         'What is heavy forward but not backward? Ton.',
-        'No, I always forget the punch line.'
+        'No, I always forget the punch line.',
+        'What do you call sad coffee? Despresso.',
+        'What do you call a dinosaur with extensive vocabulary? A thesaurus.',
+        'What do you call a sleeping bull? A bulldozer!'
+
     ]
     tts(random.choice(jokes))
 
